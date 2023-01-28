@@ -1,0 +1,15 @@
+@host= http://localhost:3000
+POST {{host}}/songs
+Content-Type: application/json
+
+{
+    "name": "AWS1",
+    "artist": "AB23",
+    "duration": 182,
+    "album": "Fantastic3",
+    "genre": "pop"
+}
+
+###
+
+GET {{host}}/songs
